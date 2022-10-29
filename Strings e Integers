@@ -1,0 +1,32 @@
+
+# O Johnny tem 20 anos de idade e mora na cidade de Itapevi
+
+nome = 'Johnny'
+idade = 20
+cidade = 'Itapevi'
+
+print('O ' + nome + ' tem ' +  str(idade) + ' anos de idade e mora na cidade de ' + cidade)
+
+# Outro algoritmo para se chegar ao mesmo resultado abaixo
+
+# O Johnny tem 20 anos de idade e mora na cidade de Itapevi
+
+nome = 'Johnny'
+idade = 20
+idade = str(idade)
+cidade = 'Itapevi'
+
+print('O ' + nome + ' tem ' +  idade + ' anos de idade e mora na cidade de ' + cidade)
+
+# Outro algoritmo utilizando a mesma base dos ultimos
+
+
+# O Johnny tem 20 anos de idade e mora na cidade de Itapevi, ele ama muito a namorada dele, ela se chama Mariana e ela é tudo pra ele <3
+
+nome = 'Johnny'
+namorada = 'Mariana'
+idade = 20
+idade = str(idade)
+cidade = 'Itapevi'
+
+print('O ' + nome + ' tem ' +  idade + ' anos de idade e mora na cidade de ' + cidade + ', ele ama muito a namorada dele, ela se chama ' + namorada + ' e ela é tudo pra ele <3')
