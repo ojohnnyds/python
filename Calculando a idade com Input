@@ -1,0 +1,23 @@
+
+# Algoritmo que diz a idade do usuário baseado no ano de nascimento dele
+
+anodenascimento = 2001
+idade = 2022 - anodenascimento
+
+print(idade)
+
+# Segue abaixo algortitmo com input, para que o usuário insira suas proprias informacoes
+
+anodenascimento = input('Em que ano você nasceu? ')
+idade = 2022 - int(anodenascimento)
+print(idade)
+
+# Algoritmo que diz o ano em que o usuario nasceu, a idade atual do usuário e quantos filhos ele possui
+
+anodenascimento = input('Em que ano você nasceu? ')
+filhos = input('Quantos filhos você tem ? ')
+filhos = str(filhos)
+idade = 2022 - int(anodenascimento)
+idade = str(idade)
+
+print('Você nasceu no ano de ' + anodenascimento + ', tem ' + idade + ' anos de idade' + ', e com essa idade ja fez ' + filhos + ' filhos')
