@@ -1,0 +1,10 @@
+
+# input = solicitar informacao do usuario
+
+nome = input('Como você se chama? ')
+namorada = input('Como a sua namorada se chama? ')
+idade = input('Qual a sua idade? ')
+idade = str(idade)
+cidade = input('Onde você reside atualmente? ')
+
+print('O ' + nome + ' tem ' +  idade + ' anos de idade e mora na cidade de ' + cidade + ', ele ama muito a namorada dele, ela se chama ' + namorada + ' e ela é tudo pra ele <3')
