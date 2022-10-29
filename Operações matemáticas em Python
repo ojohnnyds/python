@@ -1,0 +1,10 @@
+
+calculo = (2 + 2) + 2 ** 3 / 4
+
+print(calculo)
+
+'''
+Multiplicacao e divisao vem sempre antes de adicao e subtracao
+Parenteses no 2 + 2 faz a soma ser executada antes da adicao e subtracao
+Valores exponenciais vem depois do parenteses
+'''
