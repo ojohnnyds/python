@@ -1,7 +1,25 @@
 
 #  == Equal
 #  != Not Equal
+#  > Greater than
+#  < Less than
+#  >= Greater than or equal to 
+#  <+ Less than or equal to
+
 #
-#
-#
-#
+
+operadores = 10 == 10
+
+print(operadores)
+
+# Caso uma palavra tenha uma letra maiuscula e a outra não possua, o python trará a informação FALSE 
+
+operadores = 'banana' == 'bAnana'
+
+print(operadores)
+
+# Neste caso abaixo o python trará a informação TRUE
+
+operadores = 'banana' != 'bAnana'
+
+print(operadores)
