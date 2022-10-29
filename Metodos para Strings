@@ -1,0 +1,32 @@
+
+'''
+Metodos para Strings = .lower(tudo em minusculo), .uuper(tudo em maiusculo), .capitalize(primeira letra em maiusculo), .find(procurar por letra ou palavra), .replace(trocar palavras), .strip(remove qualquer espaco que venha antes do primeiro caractere digitado)
+'''
+
+mensagem = 'Eu amo comida japonesa'
+
+print(mensagem.replace('o', 'a'))
+
+#
+
+mensagem = 'eu amo comida japonesa'
+
+print(mensagem.capitalize())
+
+#
+
+mensagem = 'eu amo comida japonesa'
+
+print(mensagem.find('japonesa'))
+
+#
+
+mensagem = 'eu amo comida japonesa'
+
+print(mensagem.replace('japonesa', 'chinesa'))
+
+#
+
+mensagem = '     eu amo comida japonesa'
+
+print(mensagem.strip())
