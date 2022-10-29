@@ -1,0 +1,12 @@
+
+# Index 
+
+fruta = 'Abacate'
+#        0123456
+print(fruta[2:6])
+
+# Index numerico
+
+valor = 99.75
+#       01234
+print(str(valor)[3:5])
