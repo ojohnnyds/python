@@ -1,0 +1,11 @@
+
+compra_confirmada = False
+dados_compra = 'Compra aprovada no valor de R$50,00 e entrega confirmada'
+
+for enviar in range (3):
+    if compra_confirmada:
+        print(dados_compra)
+        print('Detalhes da compra foram enviados para o e-mail.')
+        break
+else:
+    print('Falha na compra, tente novamente!' )
