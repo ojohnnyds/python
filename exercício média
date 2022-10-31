@@ -1,0 +1,12 @@
+
+nota1 = input('Digite sua nota do primeiro semestre: ' )
+nota2 = input('Digite sua nota do segundo semestre: ' )
+nota3 = input('Digite sua nota do terceiro semestre: ' )
+nota4 = input('Digite sua nota do quarto semestre: ' )
+
+media = int(nota1) + int(nota2) + int(nota3) + int(nota4) / 4
+
+if media >= 5:
+    print('Sua média foi maior que 5, e você foi aprovado, meus parabéns! ' )
+else:
+    print('Sua média foi menor que 5 e infelizmente você foi reprovado, estude mais! ' )
