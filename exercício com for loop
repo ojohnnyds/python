@@ -1,0 +1,6 @@
+
+numerousuario = input ('Digite um numero:' )
+numerousuario = int(numerousuario)
+
+for numero in range(1, numerousuario, 2):
+    print(numero)
