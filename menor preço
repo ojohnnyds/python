@@ -1,0 +1,12 @@
+
+# Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
+
+produto1 = input('Informe o valor do produto numero 1: ' )
+produto2 = input('Informe o valor do produto numero 2: ' )
+produto3 = input('Informe o valor do produto numero 3: ' )
+
+if str(produto1) < str(produto2) and str(produto3):
+    print('O produto a ser comprado é o numero 1')
+elif str(produto2) < str(produto1) and str(produto3):
+    print('O produto a ser comprado é o numero 2')
+else print('O produto a ser comprado é o numero 3')
