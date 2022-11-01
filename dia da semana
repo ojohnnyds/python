@@ -1,0 +1,19 @@
+# Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+diadasemana = input('Digite um numero de 1 a 7: ' )
+
+if diadasemana == 1:
+    ('O numero 1 corresponde a , segunda feira.')
+elif diadasemana == 2:
+    ('O numero 2 corresponde a , terca feira.')
+elif diadasemana == 3:
+    ('O numero 3 corresponde a , quarta feira.')
+elif diadasemana == 4:
+    ('O numero 4 corresponde a, quinta feira.')
+elif diadasemana == 5:
+    ('O numero 5 corresponde a, sexta feira.')
+elif diadasemana == 6:
+    ('O numero 6 corresponde ao, sabado .')
+elif diadasemana == 7:
+    ('O numero 7 corresponde ao, domingo.')
+else:
+    'Numero invalido'
