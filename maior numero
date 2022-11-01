@@ -1,0 +1,10 @@
+
+# Faça um Programa que peça dois números e imprima o maior deles.
+
+numero1 = input('Digite um numero: ' )
+numero2 = input('Digite mais um numero: ' )
+
+if str(numero1) > str(numero2):
+    print(f'O numero {numero1} é maior que o segundo numero digitado')
+else:
+    print(f'O numero {numero2} é maior que o primeiro numero digitado')
